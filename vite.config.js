@@ -6,22 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),
+    tailwindcss()
   ],
-  esbuild: {
-    loader: 'jsx',
-  },
-  resolve: {
-    alias: {
-      './runtimeConfig': './runtimeConfig.browser',
-    },
-  },
-  // optimizeDeps: {
-  //   esbuildOptions: {
-  //     loader: {
-  //       '.js': '.jsx',
-  //     },
-  //   },
-  // },
   base: '/bg-color-change',
 })
