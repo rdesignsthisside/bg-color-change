@@ -1,6 +1,6 @@
 {
   "name": "03colorchange",
-  "homepage": "https://rdesignsthisside.github.io",
+  "homepage": "https://rdesignsthisside.github.io/bg-color-change/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "run npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

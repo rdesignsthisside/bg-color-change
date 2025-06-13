@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/bg-color-change',
+  base: '/bg-color-change/',
 })
